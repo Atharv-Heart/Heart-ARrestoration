@@ -300,6 +300,7 @@ MonoBehaviour:
   placeablePrefabs:
   - {fileID: 7503279262165187431, guid: a28216bdf81ddde4388737edfa6f543b, type: 3}
   - {fileID: 6526590072860954647, guid: d4b225eb6853de0448c45422d14acbc9, type: 3}
+  - {fileID: 5561036277480140727, guid: 9f303cb6180824d45bc656a29d4c8c11, type: 3}
 --- !u!1 &348196526
 GameObject:
   m_ObjectHideFlags: 0
