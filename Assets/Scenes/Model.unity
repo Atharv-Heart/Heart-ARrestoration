@@ -349,7 +349,7 @@ RectTransform:
   m_GameObject: {fileID: 388740394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 948945235}
@@ -359,7 +359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15}
+  m_AnchoredPosition: {x: 0, y: -132}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &388740396
@@ -412,9 +412,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Ganesha
+    - m_Text: Ganesh
       m_Image: {fileID: 0}
     - m_Text: Ruins
+      m_Image: {fileID: 0}
+    - m_Text: Coin
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -975,7 +977,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ganesha
+  m_text: Ganesh
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1318,6 +1320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1839468346}
   - component: {fileID: 1839468347}
+  - component: {fileID: 1839468348}
   m_Layer: 0
   m_Name: BtnManager
   m_TagString: Untagged
@@ -1355,6 +1358,22 @@ MonoBehaviour:
   models:
   - {fileID: 4747571140221391515, guid: 3c3fa3e5ac10db843a417c86fd0be141, type: 3}
   - {fileID: 8090588897717425065, guid: 6cabc7ce7c98db542b0f8317ee97c3a0, type: 3}
+  - {fileID: 3747907132735281411, guid: 6bca80a313448a843b930be215281632, type: 3}
+--- !u!114 &1839468348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839468345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e756668c7d5b76e4e988d73ba8a4e953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folderPath: Screenshots
+  filenamePrefix: Screenshot
+  fileExtension: png
 --- !u!1 &1849348850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,7 +1431,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dd592125d7b6be84f8af80471550607a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
