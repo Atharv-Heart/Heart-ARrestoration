@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.IO;
+using System.Linq;
 
 public class ScreenshotCapture : MonoBehaviour
 {
@@ -7,7 +9,6 @@ public class ScreenshotCapture : MonoBehaviour
     public string filenamePrefix = "Screenshot";
     public string fileExtension = "png";
     
-
     // Captures a screenshot and saves it to the specified folder
     void CaptureScreenshot()
     {
@@ -27,6 +28,7 @@ public class ScreenshotCapture : MonoBehaviour
 
         Debug.Log($"Screenshot saved at: {screenshotPath}");
     }
+
 
     public void ButtonPress()
     {
