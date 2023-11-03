@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Gaj
     m_Texture: {fileID: 2800000, guid: dce1f4d60658303438f6e2ed06c9eeb2, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4909574304007998444
+      m_GuidHigh: 2398166183663195277
+    m_SerializedTextureGuid:
+      m_GuidLow: 18375899747426852914
+      m_GuidHigh: 16115379424004122683
+    m_Size: {x: 0.1, y: 0.12137984}
+    m_SpecifySize: 1
+    m_Name: coin
+    m_Texture: {fileID: 2800000, guid: e99160324f75ff043ba867043454a5df, type: 3}
